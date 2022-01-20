@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"),
+    url(./fonts/Raleway-VariableFont_wght.ttf) format("truetype");
+}
+
+body {
+  font-family: Raleway;
+  font-weight: black;
+  font-size: 32pt;
+  line-height: 36pt;
+  color: #eee;
+  text-align: center;
+}
+
+.highlight {
+  color: #b3a5f1;
+}

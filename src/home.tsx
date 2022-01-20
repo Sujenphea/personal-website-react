@@ -7,11 +7,19 @@ import { CanvasForm, CanvasSpace, Group, Create } from "pts";
 
 const Home = () => {
   return (
-    <div>
+    <div
+      css={{
+        display: "flex",
+        alignItems: "center",
+        flexDirection: "column",
+        justifyContent: "center",
+        height: "100vh",
+      }}
+    >
       <QuickStartCanvas
         background="#333"
         name=""
-        css={{ backgroundColor: "#fff" }}
+        css={{ backgroundColor: "#fff", position: "absolute" }}
         style={{ height: "100vh", width: "100vw" }}
         onAnimate={(space: CanvasSpace, form: CanvasForm, time: number) => {
           // get a line from pointer to center, and use it for direction and magnitude calculations
@@ -29,6 +37,22 @@ const Home = () => {
           form.strokeOnly("#777").lines(lines);
         }}
       />
+      <div
+        css={{
+          alignItems: "center",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          position: "absolute",
+        }}
+      >
+        <div className="text">
+          Hello, I'm <span className="highlight">Sujen Phea</span>.<br />
+          I'm a full stack web developer.
+          <br />
+          I'm a iOS developer.
+        </div>
+      </div>
     </div>
   );
 };

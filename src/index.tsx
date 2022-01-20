@@ -2,12 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom";
 // import * as serviceWorker from "./../archive/serviceWorker";
 import "./reset.css";
+import "./index.css";
 import Home from "./home";
 
 const Index = () => {
   return (
     <div>
-      <Home />
+      <section id="home">
+        <Home />
+      </section>
     </div>
   );
 };
