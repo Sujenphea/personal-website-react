@@ -4,30 +4,30 @@ import { css, jsx } from "@emotion/react";
 
 const Experiences = () => {
   return (
-    <div
-      css={{
-        display: "flex",
-        alignItems: "center",
-        flexDirection: "column",
-        height: "100vh",
-      }}
-    >
+    <div className="category-container">
+      {/* title */}
+      <div className="title">Experiences</div>
+      {/* contents centered relative to container div */}
       <div
-        className="title"
-        css={{
-          marginTop: "50px",
-        }}
-      >
-        Experiences
-      </div>
-      <div
-        css={{
-          position: "relative",
-          top: "50vh",
-          backgroundColor: "transparent",
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "space-evenly",
+          width: "100vw",
         }}
       >
         center
+        <div
+          style={{
+            width: "200px",
+            height: "200px",
+            border: "1px solid #eee",
+          }}
+        >
+          sample
+        </div>
+        hello
       </div>
     </div>
   );
