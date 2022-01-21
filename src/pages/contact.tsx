@@ -9,20 +9,25 @@ const Contact = () => {
         display: "flex",
         alignItems: "center",
         flexDirection: "column",
-        justifyContent: "center",
         height: "100vh",
       }}
     >
       <div
+        className="title"
         css={{
-          alignItems: "center",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          position: "absolute",
+          marginTop: "50px",
         }}
       >
-        <div className="title">Contact</div>
+        Contact
+      </div>
+      <div
+        css={{
+          position: "relative",
+          top: "50vh",
+          backgroundColor: "transparent",
+        }}
+      >
+        center
       </div>
     </div>
   );

@@ -22,7 +22,7 @@ const Biography = () => {
       </div>
       <div
         css={{
-          position: "absolute",
+          position: "relative",
           top: "50vh",
           backgroundColor: "transparent",
         }}
