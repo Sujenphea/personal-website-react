@@ -26,7 +26,6 @@ body {
 
 .category-container {
   display: flex;
-  align-items: center;
   flex-direction: column;
   height: 100vh;
   position: relative;
@@ -45,4 +44,20 @@ body {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
+}
+
+/* center elements until overflow
+   flex-start overflow 
+*/
+#projects-container::before {
+  content: "";
+  flex: 1;
+}
+
+/* center elements until overflow
+   flex-start overflow 
+*/
+#projects-container::after {
+  content: "";
+  flex: 1;
 }
