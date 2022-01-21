@@ -45,7 +45,7 @@ const Home = () => {
           position: "absolute",
         }}
       >
-        <div className="title">
+        <div className="title" css={{ backgroundColor: "transparent" }}>
           Hello, I'm <span className="highlight">Sujen Phea</span>.<br />
           I'm a full stack web developer.
           <br />
