@@ -4,13 +4,20 @@
     url(./fonts/Raleway-VariableFont_wght.ttf) format("truetype");
 }
 
+* {
+  background-color: #333;
+}
+
 body {
   font-family: Raleway;
   font-weight: black;
-  font-size: 32pt;
-  line-height: 36pt;
   color: #eee;
   text-align: center;
+}
+
+.title {
+  font-size: 32pt;
+  line-height: 36pt;
 }
 
 .highlight {

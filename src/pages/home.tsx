@@ -19,7 +19,6 @@ const Home = () => {
       <QuickStartCanvas
         background="#333"
         name=""
-        css={{ backgroundColor: "#fff", position: "absolute" }}
         style={{ height: "100vh", width: "100vw" }}
         onAnimate={(space: CanvasSpace, form: CanvasForm, time: number) => {
           // get a line from pointer to center, and use it for direction and magnitude calculations
@@ -46,7 +45,7 @@ const Home = () => {
           position: "absolute",
         }}
       >
-        <div className="text">
+        <div className="title">
           Hello, I'm <span className="highlight">Sujen Phea</span>.<br />
           I'm a full stack web developer.
           <br />

@@ -3,13 +3,29 @@ import ReactDOM from "react-dom";
 // import * as serviceWorker from "./../archive/serviceWorker";
 import "./reset.css";
 import "./index.css";
-import Home from "./home";
+import Home from "./pages/home";
+import Biography from "./pages/biography";
+import Projects from "./pages/projects";
+import Experiences from "./pages/experiences";
+import Contact from "./pages/contact";
 
 const Index = () => {
   return (
     <div>
       <section id="home">
         <Home />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="experiences">
+        <Experiences />
+      </section>
+      <section id="biography">
+        <Biography />
+      </section>
+      <section id="contact">
+        <Contact />
       </section>
     </div>
   );
