@@ -22,11 +22,9 @@ const Biography = () => {
       </div>
       <div
         css={{
-          alignItems: "center",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
           position: "absolute",
+          top: "50vh",
+          backgroundColor: "transparent",
         }}
       >
         center
